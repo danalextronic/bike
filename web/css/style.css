@@ -1,0 +1,192 @@
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+.customHR
+{
+    padding:0px;
+    margin-top:5px;
+    margin-bottom:5px;
+}
+.margin0px
+{   
+    margin:0px !important;
+}
+.Padding0Px
+{   
+    padding:0px !important;
+}
+
+.form-group.required .control-label:after { 
+    color: #d00;
+    content: "*";   
+    margin-left: 5px;
+    top:7px;
+}
+
+.colorGray
+{
+  color:#666;
+}
+
+.colorBlue
+{
+  color:rgb(4,69,133);
+}
+
+.datetimepicker th.switch {
+    visibility: hidden;
+}
+
+.chooser {
+    width: 100%;
+    position: relative;
+}
+.choose-button {
+    margin: 15px;
+    display: inline-block;
+}
+
+.choose-activity {
+
+}
+
+.vendors-activities {
+    width: 100%;
+}
+
+.vendor-fields, .activity-fields {
+    width: 47%;
+    display: inline-block;
+    margin-right: 15px;
+    margin-left: 15px;
+    vertical-align: top;
+}
+
+.vendor-fields .panel,
+.activity-fields .panel {
+    margin: 15px;
+}
+
+.add-brands {
+    margin: 15px;
+}
+
+.choose-brand {
+    width: 100%;
+    margin: 15px;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.one-brand {
+    margin: 15px 0;
+}
+
+ul.loaded-images {
+   list-style-type: none;
+    margin-top: 5px;
+}
+
+.one-image {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.percent-section, .brand-section {
+    width: 45%;
+    display: inline-block;
+}
+.existing-brand {
+    margin: 15px;
+}
+
+.brand-section .delete-brand {
+    float: right;
+}
+
+
+ul.choose-position {
+    list-style-type: none;
+    margin: 5px 0;
+}
+
+.position-section {
+    width: 95%;
+    display: inline-block;
+    margin: 5px 0;
+    text-align: center;
+}
+.position-section input{
+    width: 45%;
+    display: inline-block;
+}
+
+.delete-brand, .delete-position {
+    cursor: pointer;
+}
+.delete-image {
+    display: block;
+    cursor: pointer;
+    width: 76px;
+    height: 76px;
+    position: relative;
+}
+.delete-image::before {
+    position: absolute;
+    display: block;
+    width: 1.2em;
+    height: 1.2em;
+    top: -10px;
+    right: -10px;
+    text-align: center;
+    overflow: hidden;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 12px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    background-color: #ff0000;
+    content: "X";
+}
+
+
+.review {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    font-size: 12px;
+    font-weight: normal;
+}
+table td {
+    vertical-align: middle!important;
+}
+
+@media  screen and (max-width: 768px) {
+    .vendor-fields, .activity-fields {
+        width: 42%;
+    }
+}
+
+
+.modal-radio {
+    display: block;
+
+}
+.modal-radio span {
+    margin-left: 5px;
+}
+.modal-radio input {
+    vertical-align: middle;
+    margin: 0;
+}
